@@ -15,3 +15,4 @@ environment level----------------> prod.tfvars
 terraform level-------------------> terraform.tfvars
 default variables-----------------> from variable.tf file or else if we din't define in variables.tf then through prompt we have to pass the value
 
+terraform.workspace is the default builtin variable provided by the terraform so if your in dev workspace the terraform.workspace value should be dev
